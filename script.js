@@ -149,9 +149,9 @@ const questions = [
 
 const questionContainer = document.getElementById("questionContainer");
 const optionsButton = document.querySelectorAll(".option");
-let currentIndex = 0;
 const numberOfQuestons = questions.length;
 let totalQuestions = document.getElementById("totalQuestion").innerText = numberOfQuestons;
+let currentIndex = 0;
 const nextButton = document.getElementById("next-button");
 let questionNumber = document.getElementById("currenQuestion");
 const scoreBoard = document.querySelector(".score-board");
